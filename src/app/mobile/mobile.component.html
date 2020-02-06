@@ -1,0 +1,23 @@
+
+
+<div  class="col-9" *ngFor="let m of details">
+    <a [routerLink]="['/details',m.id,m.name,m.cost,m.pic]">
+            
+            <table class="table table-striped" >
+                    <tr>
+                      <th>Id</th>
+                      <th>Name</th>
+                      <th>Cost</th>
+                      <th>Pic</th>
+                    </tr>
+                    <tr >
+                      <td>{{m.id}}</td>
+                      <td>{{m.name}}</td>
+                      <td>{{m.cost}}</td>
+                      <td><img src="{{m.pic}}"></td>
+                    </tr>
+                  </table>
+    </a>
+</div>
+
+

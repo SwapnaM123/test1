@@ -1,0 +1,64 @@
+{
+
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+
+
+  "products": [
+   
+      {
+        "id":1,
+        "name": "Iphone",
+        "cost": "45000",
+        "pic": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTkHyIuWih-xIV8YvGwdO8DStiKob0qfLNu-mmTwhWH-qmtys57xmU8U86EZ4W3zqe1E7nl11Wt4EWj6ulcWCP6GQJ9Lk3goXonHHcludC6Q5jcEObo7GHK&usqp=CAc"
+      },
+      {
+        "id":2,
+        "name": "Samsung",
+        "cost": "45000",
+        "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqjqp9f0aXWlHT8T6XSuGwePyjQIkZs11RXoqx5FUbDfXjS1r_&s"
+      },
+    {
+      "id":3,
+        "name": "Lenovo",
+        "cost": "45000",
+        "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRshg-8Y3_d0z3X-46OEKN7tcklROccJ46XUy8oExvO6LNPkstolg&s"
+      },
+      {
+        "id":4,
+        "name": "Vivo",
+        "cost": "45000",
+        "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-BV_0UtPzKH9Z76SjK7fxVnKA2-bopqaYC0ff_CyU2vHwM3hE&s"
+      },
+      {
+        "id":5,
+        "name": "Oppo",
+        "cost": "45000",
+        "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA9qlbKbAnxmT4iGGTF5vJ9KUAiFcbs-WIlTjxFBVg7qwV1zrioAryuacO&s"
+      },
+      {
+        "id":6,
+        "name": "Redmi",
+        "cost": "45000",
+        "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgIhRtskVCDu95S2q0G6dl_Y707KcOMFlahwQjVr1OsPnMUU6M&s"
+      }
+      
+    ],
+ 
+
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

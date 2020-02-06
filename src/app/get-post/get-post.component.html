@@ -1,0 +1,22 @@
+
+
+
+
+<br/>
+
+<h2>Json Data</h2>
+
+<table class="table table-striped" style="background-color:burlywood; width: 70%;">
+    <tr>
+        <th>  Id  </th>
+        <th>    Title</th>
+        <th> Author   </th>
+    </tr>
+    <tr *ngFor="let m of dis" >
+        <td>{{m.id}}</td>
+        <td>{{m.title}}</td>
+        <td>{{m.author}}</td>
+    </tr>
+</table>
+
+{{dis | json}}
